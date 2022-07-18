@@ -1,0 +1,112 @@
+*
+    box-sizing: border-box
+    font-family: "Inter"
+.container
+    max-width: 1260px
+    padding: 0px 15px
+    margin: 0 auto
+.top-header
+    max-width: 1260px
+    height: 44px
+    border-bottom: 1px solid #F2F2F2
+    margin: 0 auto
+    &_phone
+        text-decoration: none
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 120%
+        color: #333333
+    &_wrapper
+        display: flex
+        justify-content: flex-end
+        gap: 50px
+        align-items: center
+        padding-top: 10px
+.bottom-header
+    max-width: 1260px
+    height: 82px
+    margin: 0 auto
+    padding-top: 30px
+    &_wrapper
+        display: flex
+        justify-content: space-between
+    &_logo
+        max-width: 127px
+        max-height: 52px
+    .menu
+        list-style-type: none
+        display: flex
+        background: #F5FAF7
+        border-radius: 8px
+        padding: 5px
+        // max-width: 687px
+        height: 52px
+        margin: 0
+        justify-content: center
+        align-items: center
+        &_item
+            padding: 12px 36px
+            max-height: 42px
+            border-radius: 6px
+            border-right: 1px solid rgba(0, 176, 82, 0.1)
+            &:last-child
+                border-right: none
+        &_link
+            text-decoration: none
+            font-style: normal
+            font-weight: 500
+            font-size: 16px
+            line-height: 110%
+            text-align: center
+            color: #00B052
+    .burger
+        padding: 0
+        border: none
+        font: inherit
+        color: inherit
+        background-color: transparent
+.promo
+    margin-top: 40px
+    &_wrapper
+        display: flex
+        flex-direction: row
+        gap: 20px
+    .long-banner
+        width: 833px
+        height: 350px
+        background: #F7F7FC
+        border-radius: 15px
+        padding: 40px 40px
+        &_title
+            max-width: 441px
+            font-weight: 500
+            font-size: 32px
+            line-height: 120%
+            color: #333333
+            margin: 0
+        &_subtitle
+            max-width: 441px
+            font-weight: 400
+            font-size: 18px
+            line-height: 140%
+            color: #333333
+            margin-top: 20px
+    .short-banner
+        width: 407px
+        height: 350px
+        background: #F7F7FC
+        border-radius: 15px
+        padding: 40px 40px
+        &_title
+            font-weight: 500
+            font-size: 26px
+            line-height: 120%
+            color: #333333
+        &_subtitle
+            max-width: 327px
+            font-weight: 400
+            font-size: 16px
+            line-height: 150%
+            color: #333333
+            margin-top: 20px
