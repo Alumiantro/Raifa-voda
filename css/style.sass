@@ -3,7 +3,7 @@ $text-color: #333333
     box-sizing: border-box
     font-family: "Inter"
 .container
-    max-width: 1260px
+    max-width: 1290px
     padding: 0px 15px
     margin: 0 auto
 .top-header
@@ -24,6 +24,8 @@ $text-color: #333333
         gap: 50px
         align-items: center
         padding-top: 10px
+        select
+            border: none
 .bottom-header
     max-width: 1260px
     height: 82px
@@ -178,6 +180,7 @@ h2
         display: flex
         flex-direction: row
         gap: 100px
+        flex-wrap: wrap
         &-main
             display: flex
             flex-direction: column
@@ -205,14 +208,15 @@ h2
             position: absolute
             left: 280px
             top: 100px
-.navigation
+.navigation-blocks
     margin-top: 110px
-    .col-md-12
+    a
+        text-decoration: none
+    .row
         display: flex
         flex-direction: row
         gap: 20px
-    .navigation_wrapper
-        display: flex
+        flex-wrap: wrap
     .large-item
         width: 620px
         height: 550px
@@ -254,3 +258,56 @@ h2
             max-height: 226px
             bottom: 0
             right: 0
+footer
+    border-top: 1px solid #E6E6E6
+    margin-top: 120px
+    padding: 30px 0
+    .footer_wrapper
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-between
+    .left-row
+        display: flex
+        flex-direction: column
+        gap: 25px
+        .contacts-list
+            list-style-type: none
+            padding: 0
+            margin: 0
+            display: flex
+            flex-direction: column
+            gap: 15px
+        .contacts-item
+            text-decoration: none
+            font-weight: 500
+            font-size: 16px
+            line-height: 120%
+            color: #333333
+        small
+            font-weight: 400
+            font-size: 15px
+            line-height: 18px
+            color: #808080
+    .footer-navigation
+        display: flex
+        gap: 75px
+        .footer-column
+            list-style-type: none
+            padding: 0
+            display: flex
+            flex-direction: column
+            gap: 20px
+        .footer-link
+            text-decoration: none
+            font-weight: 400
+            font-size: 16px
+            line-height: 19px
+            color: #808080
+            padding: 0
+            margin: 0
+    .stores
+        flex-direction: column
+    .footer-logo
+        display: inline-block
+        margin-top: 30px
