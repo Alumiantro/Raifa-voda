@@ -6,14 +6,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/header.css">
 </head>
 
 <body>
     <header>
         <div class="top-header">
             <div class="container">
-                <div class="top-header_wrapper">
+                <!-- <div class="top-header_wrapper">
+                    <ul class="header__dropdown dropdown">
+                        <li class="dropdown__link">
+                           <a href="">Набережные Челны</a>
+                                <ul id="myDropdown" class="dropdown__sub-list">
+                                    <li class="dropdown__sub-link"><a href="">Казань</a></li>
+                                    <li class="dropdown__sub-link"><a href="">Елабуга</a> </li>
+                                </ul>
+                        </li>
+                    </ul> -->
                     <select name="location" class="top-header_location">
                         <option value="Naberezhnye_Chelny">Набережные Челны</option>
                         <option value="Kazan">Казань</option>
@@ -28,10 +38,10 @@
                     <a href="#" class="bottom-header_logo"><img src="img/logo.svg" alt="logo"></a>
                     <nav>
                         <ul class="menu">
-                            <li class="menu_item"><a href="#" class="menu_link">Домой</a></li>
-                            <li class="menu_item"><a href="#" class="menu_link">В школу</a></li>
-                            <li class="menu_item"><a href="#" class="menu_link">На работу</a></li>
-                            <li class="menu_item"><a href="#" class="menu_link">На работу как физ лицо</a></li>
+                            <li><button class="menu_link">Домой</button></li> 
+                            <li><button class="menu_link">В школу</button></li>
+                            <li><button class="menu_link">На работу</button></li>
+                            <li><button class="menu_link">На работу как физ лицо</button></li>
                         </ul>
                     </nav>
                     <button class="burger" aria-label="open menu">
@@ -136,7 +146,7 @@
                             <img src="img/navigation/products.png" alt="Продукция" class="medium-item_img">
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="review.html">
                         <div class="small-item">
                             <h2 class="head-left">Отзывы</h2>
                             <img src="img/navigation/reviews.png" alt="Отзывы" class="small-item_img">

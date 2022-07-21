@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Отзывы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/review.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="top-header_wrapper">
+                    <!-- <select name="location" class="top-header_location">
+                        <option value="Naberezhnye_Chelny">Набережные Челны</option>
+                        <option value="Kazan">Казань</option>
+                    </select> -->
+                    <div class="location-select-wrapper">
+                        <div class="current-select">
+                            <img src="../img/dropdown.svg" alt="Открыть меню">
+                            <div class="current-city">Казань</div>
+                        </div>
+                        <div id="cities" class="cities_hidden">
+                            <div class="cities-item">Казань</div>
+                            <div class="cities-item">Набережные Челны</div>
+                        </div>
+                    </div>
+                    <a href="tel:5198198" class="top-header_phone">519-81-98</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div class="container">
+                <div class="bottom-header_wrapper">
+                    <a href="#" class="bottom-header_logo"><img src="../img/logo.svg" alt="logo"></a>
+                    <nav>
+                        <ul class="menu">
+                            <li><button class="menu_link">Домой</button></li>
+                            <li><button class="menu_link">В школу</button></li>
+                            <li><button class="menu_link">На работу</button></li>
+                            <li><button class="menu_link">На работу как физ лицо</button></li>
+                        </ul>
+                    </nav>
+                    <button class="burger" aria-label="open menu">
+                        <img src="../img/menu.svg" alt="open menu" class="burger_img">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb">
+                <div class="breadcrumb-item breadcrumb-item_active">
+                    <a class="breadcrumb-link" href="#">Главная</a>
+                </div>
+                <div class="breadcrumb-item">
+                    <a class="breadcrumb-link" href="#">Отзывы</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-information">
+        <div class="container">
+            <div class="main-information_wrapper">
+                <h1>Отзывы</h1>
+                <button class="main-button_filled">Оставить отзыв</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

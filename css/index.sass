@@ -1,4 +1,5 @@
-$text-color: #333333
+$dark-text-color: #333333
+$light-text-color: #F7F7FC
 *
     box-sizing: border-box
     font-family: "Inter"
@@ -6,69 +7,6 @@ $text-color: #333333
     max-width: 1290px
     padding: 0px 15px
     margin: 0 auto
-.top-header
-    max-width: 1260px
-    height: 44px
-    border-bottom: 1px solid #F2F2F2
-    margin: 0 auto
-    &_phone
-        text-decoration: none
-        font-style: normal
-        font-weight: 400
-        font-size: 16px
-        line-height: 120%
-        color: $text-color
-    &_wrapper
-        display: flex
-        justify-content: flex-end
-        gap: 50px
-        align-items: center
-        padding-top: 10px
-        select
-            border: none
-.bottom-header
-    max-width: 1260px
-    height: 82px
-    margin: 0 auto
-    padding-top: 30px
-    &_wrapper
-        display: flex
-        justify-content: space-between
-    &_logo
-        max-width: 127px
-        max-height: 52px
-    .menu
-        list-style-type: none
-        display: flex
-        background: #F5FAF7
-        border-radius: 8px
-        padding: 5px
-        // max-width: 687px
-        height: 52px
-        margin: 0
-        justify-content: center
-        align-items: center
-        &_item
-            padding: 12px 36px
-            max-height: 42px
-            border-radius: 6px
-            border-right: 1px solid rgba(0, 176, 82, 0.1)
-            &:last-child
-                border-right: none
-        &_link
-            text-decoration: none
-            font-style: normal
-            font-weight: 500
-            font-size: 16px
-            line-height: 110%
-            text-align: center
-            color: #00B052
-    .burger
-        padding: 0
-        border: none
-        font: inherit
-        color: inherit
-        background-color: transparent
 .promo
     margin-top: 40px
     &_wrapper
@@ -78,7 +16,7 @@ $text-color: #333333
     .long-banner
         width: 833px
         height: 350px
-        background: #F7F7FC
+        background: $light-text-color
         border-radius: 15px
         padding-left: 40px
         position: relative
@@ -88,7 +26,7 @@ $text-color: #333333
             font-weight: 500
             font-size: 32px
             line-height: 120%
-            color: $text-color
+            color: $dark-text-color
             margin: 0
             padding-top: 40px
         &_subtitle
@@ -96,7 +34,7 @@ $text-color: #333333
             font-weight: 400
             font-size: 18px
             line-height: 140%
-            color: $text-color
+            color: $dark-text-color
             margin-top: 20px
         &_img
             width: 328px
@@ -106,26 +44,26 @@ $text-color: #333333
     .short-banner
         width: 407px
         height: 350px
-        background: #F7F7FC
+        background: $light-text-color
         border-radius: 15px
         padding: 40px 40px
         &_title
             font-weight: 500
             font-size: 26px
             line-height: 120%
-            color: $text-color
+            color: $dark-text-color
         &_subtitle
             max-width: 327px
             font-weight: 400
             font-size: 16px
             line-height: 150%
-            color: $text-color
+            color: $dark-text-color
             margin-top: 20px
 h2
     font-weight: 500
     font-size: 36px
     line-height: 120%
-    color: $text-color
+    color: $dark-text-color
     margin: 0
 .head-center
     text-align: center
@@ -150,8 +88,14 @@ h2
         &_img
             width: 250px
             height: 250px
-            background: #F7F7FC
+            background: $light-text-color
             border-radius: 1000px
+            &::after
+                display: block
+                content: '1'
+                width: 50px
+                height: 50px
+                background: #c00000
 .stores
     display: flex
     gap: 20px
@@ -163,7 +107,7 @@ h2
     font-weight: 400
     font-size: 22px
     line-height: 140%
-    color: $text-color
+    color: $dark-text-color
     span
         font-weight: 500
         font-size: 22px
@@ -191,11 +135,8 @@ h2
                 flex-direction: column
                 gap: 20px
     &-pictures
-        // display: flex
-        // flex-direction: row
         position: relative
         min-width: 468px
-        // gap: 50px
         &_application
             width: 258px
             height: 398px
@@ -220,7 +161,7 @@ h2
     .large-item
         width: 620px
         height: 550px
-        background: #F7F7FC
+        background: $light-text-color
         border-radius: 15px
         position: relative
         overflow: hidden
@@ -234,7 +175,7 @@ h2
     .medium-item
         width: 620px
         height: 304px
-        background: #F7F7FC
+        background: $light-text-color
         border-radius: 15px
         position: relative
         padding: 50px 0 0 50px
@@ -247,7 +188,7 @@ h2
     .small-item
         width: 620px
         height: 226px
-        background: #F7F7FC
+        background: $light-text-color
         border-radius: 15px
         position: relative
         margin-top: 20px
@@ -283,7 +224,7 @@ footer
             font-weight: 500
             font-size: 16px
             line-height: 120%
-            color: #333333
+            color: $dark-text-color
         small
             font-weight: 400
             font-size: 15px

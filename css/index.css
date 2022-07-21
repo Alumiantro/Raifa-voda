@@ -10,98 +10,6 @@
   margin: 0 auto;
 }
 
-.top-header {
-  max-width: 1260px;
-  height: 44px;
-  border-bottom: 1px solid #F2F2F2;
-  margin: 0 auto;
-}
-.top-header_phone {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 120%;
-  color: #333333;
-}
-.top-header_wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  gap: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 10px;
-}
-.top-header_wrapper select {
-  border: none;
-}
-
-.bottom-header {
-  max-width: 1260px;
-  height: 82px;
-  margin: 0 auto;
-  padding-top: 30px;
-}
-.bottom-header_wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.bottom-header_logo {
-  max-width: 127px;
-  max-height: 52px;
-}
-.bottom-header .menu {
-  list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #F5FAF7;
-  border-radius: 8px;
-  padding: 5px;
-  height: 52px;
-  margin: 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.bottom-header .menu_item {
-  padding: 12px 36px;
-  max-height: 42px;
-  border-radius: 6px;
-  border-right: 1px solid rgba(0, 176, 82, 0.1);
-}
-.bottom-header .menu_item:last-child {
-  border-right: none;
-}
-.bottom-header .menu_link {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 110%;
-  text-align: center;
-  color: #00B052;
-}
-.bottom-header .burger {
-  padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-}
-
 .promo {
   margin-top: 40px;
 }
@@ -230,6 +138,13 @@ h2 {
   height: 250px;
   background: #F7F7FC;
   border-radius: 1000px;
+}
+.steps-item_img::after {
+  display: block;
+  content: "1";
+  width: 50px;
+  height: 50px;
+  background: #c00000;
 }
 
 .stores {
@@ -475,4 +390,4 @@ footer .stores {
 footer .footer-logo {
   display: inline-block;
   margin-top: 30px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=index.css.map */

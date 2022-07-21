@@ -1,0 +1,60 @@
+*
+    box-sizing: border-box
+    font-family: "Inter"
+.container
+    max-width: 1290px
+    padding: 0px 15px
+    margin: 0 auto
+.current-select
+    display: flex
+.cities_hidden
+    display: none
+.cities_show
+    display: block
+.container-breadcrumb
+    margin-top: 50px
+    .breadcrumb
+        display: flex
+        &-item
+            &::after
+                content: "\2014"
+                margin-left: 10px
+                margin-right: 10px
+                color: #808080
+            &:last-child
+                &::after
+                    content: ""
+        &-item_active
+            a
+                font-weight: 400
+                font-size: 16px
+                line-height: 120%
+                color: #333333
+        &-link
+            text-decoration: none
+            font-weight: 400
+            font-size: 16px
+            line-height: 120%
+            color: #808080
+.main-information
+    margin-top: 20px
+    &_wrapper
+        display: flex
+        justify-content: space-between
+h1
+    font-weight: 500
+    font-size: 48px
+    line-height: 120%
+    color: #333333
+    margin: 0
+    padding: 0
+.main-button_filled
+    background: #ECEDFE
+    width: 230px
+    height: 52px
+    border: none
+    border-radius: 10px
+    font-weight: 500
+    font-size: 18px
+    line-height: 120%
+    color: #363787
