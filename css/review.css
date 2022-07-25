@@ -58,6 +58,7 @@
 
 .main-information {
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 .main-information_wrapper {
   display: -webkit-box;
@@ -87,4 +88,46 @@ h1 {
   font-size: 18px;
   line-height: 120%;
   color: #363787;
+}
+
+.review-wrapper {
+  border: 1px solid #E6E6E6;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.review-item {
+  margin: 30px;
+}
+.review-item__main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.review-item__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #333333;
+  margin-left: 40px;
+}
+.review-item__date {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #808080;
+  float: right;
+}
+.review-item__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
 }/*# sourceMappingURL=review.css.map */
